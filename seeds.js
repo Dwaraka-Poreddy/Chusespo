@@ -28,27 +28,27 @@ function seedDB() {
     if (err) console.log(err);
     else {
       console.log("removed everything");
-      data.forEach(function (seed) {
-        Campground.create(seed, function (err, campground) {
-          if (err) console.log(err);
-          else console.log("added");
-          Comment.create(
-            {
-              text:
-                "This is a great place except for loss of internet connectivity",
-              author: "Boomer",
-            },
-            function (err, comment) {
-              if (err) console.log(err);
-              else {
-                campground.comments.push(comment);
-                campground.save();
-                console.log("comment added");
-              }
-            }
-          );
-        });
-      });
+      // data.forEach(function (seed) {
+      //   Campground.create(seed, function (err, campground) {
+      //     if (err) console.log(err);
+      //     else console.log("added");
+      //     Comment.create(
+      //       {
+      //         text:
+      //           "This is a great place except for loss of internet connectivity",
+      //         author: "Myself",
+      //       },
+      //       function (err, comment) {
+      //         if (err) console.log(err);
+      //         else {
+      //           campground.comments.push(comment);
+      //           campground.save();
+      //           console.log("comment added");
+      //         }
+      //       }
+      //     );
+      //   });
+      // });
     }
   });
 }
