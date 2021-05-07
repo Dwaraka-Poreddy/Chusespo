@@ -192,18 +192,18 @@ router.put(
       } else {
         if (req.file) {
           try {
-            await cloudinary.v2.uploader.destroy(user.imageId);
+            await cloudinary.v2.uploader.destroy(user.image);
             var result = await cloudinary.v2.uploader.upload(
-              req.file.path,
-              {
-                width: 400,
-                height: 400,
-                gravity: "center",
-                crop: "scale",
-              },
-              {
-                moderation: "webpurify",
-              }
+              req.file.path
+              // {
+              //   width: 400,
+              //   height: 400,
+              //   gravity: "center",
+              //   crop: "scale",
+              // }
+              // {
+              //   moderation: "webpurify",
+              // }
             );
             user.imageId = result.public_id;
             user.image = result.secure_url;
