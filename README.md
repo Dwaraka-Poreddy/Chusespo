@@ -29,6 +29,7 @@ This website is about tourist areas. Here users can create their own tourist spo
 ### Live Demo - [Chusespo](https://chusespo.herokuapp.com/)
 
 <br>
+
 ### Technologies
 
 - Node.js
