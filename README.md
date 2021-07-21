@@ -43,15 +43,15 @@ This website is about tourist areas. Here users can create their own tourist spo
 ## Demo
 <br>
 <p align="center">
+  <img  src="README_IMAGES\4.jpeg"  > 
+</p>
+<br>
+<p align="center">
   <img  src="README_IMAGES\2.jpeg"  > 
 </p>
 <br>
 <p align="center">
   <img  src="README_IMAGES\3.jpeg"  > 
-</p>
-<br>
-<p align="center">
-  <img  src="README_IMAGES\4.jpeg"  > 
 </p>
 
 
