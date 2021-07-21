@@ -24,7 +24,7 @@ This project was created using Node.js, Express, MongoDB, and Bootstrap. Passpor
 <br>
 This website is about tourist areas. Here users can create their own tourist spots and comment and rate on others tourist spots. They contain information about the prices, different amenities available, contact details, and the address shown using google maps. I used HTML, CSS, ejs, MongoDB, jQuery, Javascript, Express, Node and NPM. This website is hosted using Heroku.
 <br>
-
+<br>
 ### Live Demo - [Chusespo](https://chusespo.herokuapp.com/)
 
 <br>
