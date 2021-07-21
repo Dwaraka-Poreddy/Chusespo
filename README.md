@@ -4,7 +4,6 @@
 ![Image 2](https://raw.githubusercontent.com/himanshup/yelp-camp/master/screenshots/image2.png)
 
 Chusespo is a website where users can create and review campgrounds. In order to review or create a campground, you must have an account.
-
 This project was created using Node.js, Express, MongoDB, and Bootstrap. Passport.js was used to handle authentication.
 
 <br>
@@ -29,7 +28,7 @@ This website is about tourist areas. Here users can create their own tourist spo
 ### Live Demo - [Chusespo](https://chusespo.herokuapp.com/)
 
 <br>
----
+
 
 ## Features
 
