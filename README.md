@@ -13,8 +13,9 @@ This project was created using Node.js, Express, MongoDB, and Bootstrap. Passpor
 
 ### Table of Contents
 
-- [Demo](#demo)
 - [Description](#Description)
+- [Demo](#demo)
+- [Project Layout](#project-layout)
 - [References](#references)
 - [Author Info](#author-info)
 
